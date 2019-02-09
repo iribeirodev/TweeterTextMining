@@ -3,6 +3,7 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from TweetListener import tweet_listener
 
+
 # Get application config keys from yml file
 def setup_keys():
     cfg = {}
